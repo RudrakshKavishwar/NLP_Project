@@ -66,7 +66,6 @@ print(recommended_jobs)
 
 """####Bert for Semantic Similarity"""
 
-!pip install streamlit sentence-transformers
 
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
