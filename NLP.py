@@ -56,9 +56,6 @@ recommended_jobs = job_data[['jobtitle', 'joblocation_address']].iloc[similar_in
 print(recommended_jobs)
 
 """####Bert for Semantic Similarity"""
-
-!pip install sentence-transformers
-
 from sentence_transformers import SentenceTransformer, util
 import pandas as pd
 
