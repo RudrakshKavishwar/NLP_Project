@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import PyPDF2
 from pyresparser import ResumeParser
 from sklearn.neighbors import NearestNeighbors
 from src.components.job_recommender import ngrams,getNearestN,jd_df
